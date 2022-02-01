@@ -1,0 +1,13 @@
+header {
+    background-color: #20313F;
+    color: #FFF;
+    padding: 30px 0;
+}
+.headerContainer {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

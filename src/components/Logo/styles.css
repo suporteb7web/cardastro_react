@@ -1,0 +1,15 @@
+.logo {
+    cursor: pointer;
+}
+.mainLogo {
+    font-size: 23px;
+    font-style: italic;
+}
+.mainLogo span {
+    font-size: 23px;
+    font-weight: bold;
+}
+.powered {
+    font-size: 12px;
+    opacity: .6;
+}

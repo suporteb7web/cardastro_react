@@ -1,0 +1,63 @@
+.tableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+}
+.tableHeaderLeft {
+    font-weight: bold;
+    font-size: 16px;
+}
+.tableHeaderRight {
+    opacity: .7;
+}
+
+.carItem {
+    display: flex;
+}
+.column {
+    flex: 1;
+    height: 80px;
+    border-bottom: 1px solid #999;
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    width: 50px;
+    flex: none;
+    padding: 0 10px;
+}
+.brand img {
+    width: 100%;
+}
+.model {
+    flex: 1.5;
+    font-weight: bold;
+}
+.year, .km {
+    color: #999;
+}
+.price {
+    font-weight: bold;
+}
+.options {
+    flex: none;
+    width: 50px;
+
+}
+
+.pointWindow {
+    position: absolute;
+    width: 70px;
+    margin-left: -70px;
+    background-color: #20313F;
+}
+.pointWindowBtn {
+    padding: 5px 10px;
+    color: #FFF;
+    cursor: pointer;
+}
+.pointWindowBtn:hover {
+    background-color: #6A7D8B;
+}

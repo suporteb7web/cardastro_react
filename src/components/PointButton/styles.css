@@ -1,0 +1,14 @@
+.pointButton {
+    width: 20px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.pointButton div {
+    width: 2px;
+    height: 2px;
+    background-color: #000;
+}
